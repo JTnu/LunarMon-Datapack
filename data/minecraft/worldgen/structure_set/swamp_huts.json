@@ -1,0 +1,24 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spread_type": "triangular",
+    "salt": 10387312,
+    "separation": 32,
+    "spacing": 54,
+    "exclusion_zone":
+    {
+      "other_set": "minecraft:villages",
+      "chunk_count": 12
+    }
+  },
+  "structures": [
+    {
+      "structure": "bca:village/witch_hut",
+      "weight": 4
+    },
+    {
+      "structure": "minecraft:swamp_hut",
+      "weight": 2
+    }
+  ]
+}

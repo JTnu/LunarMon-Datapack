@@ -1,0 +1,17 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:snowy_plains",
+    "minecraft:snowy_taiga",
+    "minecraft:ice_spikes",
+    "minecraft:frozen_river",
+    "minecraft:snowy_beach",
+    "minecraft:grove",
+    "minecraft:frozen_peaks",
+    "minecraft:jagged_peaks",
+    "minecraft:snowy_slopes",
+    { "id": "terralith:alpine_grove", "required": false },
+    { "id": "terralith:cold_shrubland", "required": false },
+    { "id": "terralith:ice_caps", "required": false }
+  ]
+}
