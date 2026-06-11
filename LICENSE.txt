@@ -1,0 +1,12 @@
+LunarMon Datapack License
+Copyright © 2026 LunarMon Team. All Rights Reserved.
+
+This datapack is created exclusively for official use within 
+the LunarMon Modpack. 
+
+* No Re-Uploading: You may not upload this datapack, in whole or 
+in part, to any other website, hosting platform, or public repository.
+* No Repackaging: You may not include this datapack in other modpacks, 
+or servers without explicit, written permission from the creators
+* No Modification: You may not alter, transform, or build upon 
+this datapack to distribute a derivative work.
