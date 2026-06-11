@@ -1,0 +1,13 @@
+This datapack was created for the LunarMon Modpack
+
+LunarMon gives all credit to the original creators 
+of every asset in this pack. Anything that is not referenced here
+Is licensed under ARR for use strictly in the LunarMon Modpack 
+
+BCA Villages & Structures
+https://modrinth.com/datapack/cobblemon-additions - strikebyte
+License: ARR (As of 6/11/2026)
+
+Vanilla Minecraft Pokecenter
+https://modrinth.com/datapack/pokecenter-pc-cobblemon - Instrafe 
+Licensed: MIT (As of 6/11/2026)
