@@ -1,0 +1,83 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:bug_memory"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:dark_memory"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:dragon_memory"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:electric_memory"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:fairy_memory"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:fighting_memory"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:fire_memory"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:flying_memory"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:ghost_memory"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:grass_memory"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:ground_memory"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:ice_memory"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:poison_memory"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:psychic_memory"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:rock_memory"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:steel_memory"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:water_memory"
+        }
+      ]
+    }
+  ],
+  "functions": []
+}

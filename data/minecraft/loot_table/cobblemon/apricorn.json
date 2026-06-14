@@ -1,0 +1,150 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "cobblemon:black_apricorn",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "cobblemon:black_apricorn_seed"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "cobblemon:blue_apricorn",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "cobblemon:blue_apricorn_seed"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "cobblemon:green_apricorn",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "cobblemon:green_apricorn_seed"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "cobblemon:pink_apricorn",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "cobblemon:pink_apricorn_seed"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "cobblemon:red_apricorn",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "cobblemon:red_apricorn_seed"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "cobblemon:white_apricorn",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "cobblemon:white_apricorn_seed"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "cobblemon:yellow_apricorn",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "cobblemon:yellow_apricorn_seed"
+        }
+      ]
+    }
+  ]
+}

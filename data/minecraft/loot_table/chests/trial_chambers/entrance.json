@@ -2,19 +2,7 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "bonus_rolls": 0.0,
       "entries": [
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:trial_key"
-        },
         {
           "type": "minecraft:item",
           "functions": [
@@ -74,12 +62,25 @@
           ],
           "name": "minecraft:arrow",
           "weight": 10
+        },
+		    {
+          "type": "minecraft:loot_table",
+          "value":"minecraft:cobblemon/vitamin"
+        },
+        {
+          "type": "minecraft:loot_table",
+         "value": "minecraft:cobblemon/x_item"
+        },
+        {
+          "type": "minecraft:loot_table",
+         "value": "minecraft:cobblemon/pokeball",
+         "weight": 8
         }
       ],
       "rolls": {
         "type": "minecraft:uniform",
-        "max": 3.0,
-        "min": 2.0
+        "max": 2.0,
+        "min": 1.0
       }
     }
   ],

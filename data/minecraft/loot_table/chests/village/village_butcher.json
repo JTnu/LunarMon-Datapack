@@ -3,6 +3,11 @@
   "pools": [
     {
       "bonus_rolls": 0.0,
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1.0,
+        "max": 2.0
+      },
       "entries": [
         {
           "type": "minecraft:item",
@@ -10,90 +15,95 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
           "name": "minecraft:porkchop",
-          "weight": 6
-        },
-        {
-          "type": "minecraft:item",
+          "weight": 4,
           "functions": [
             {
+              "function": "minecraft:set_count",
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
+                "min": 1.0,
+                "max": 3.0
+              }
             }
-          ],
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:wheat",
-          "weight": 6
-        },
-        {
-          "type": "minecraft:item",
+          "weight": 6,
           "functions": [
             {
+              "function": "minecraft:set_count",
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
+                "min": 1.0,
+                "max": 3.0
+              }
             }
-          ],
-          "name": "minecraft:beef",
-          "weight": 6
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:cobblemon/berries",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:cobblemon/pokeball",
+          "weight": 20
         },
         {
           "type": "minecraft:item",
+          "name": "cobblemon:sweet_apple",
+          "weight": 2,
           "functions": [
             {
+              "function": "minecraft:set_count",
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
+                "min": 1.0,
+                "max": 3.0
+              }
             }
-          ],
-          "name": "minecraft:mutton",
-          "weight": 6
+          ]
         },
         {
           "type": "minecraft:item",
+          "name": "cobblemon:tart_apple",
+          "weight": 2,
           "functions": [
             {
+              "function": "minecraft:set_count",
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
+                "min": 1.0,
+                "max": 3.0
+              }
             }
-          ],
-          "name": "minecraft:coal",
-          "weight": 3
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:galarica_nuts",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 3.0
+              }
+            }
+          ]
         }
-      ],
-      "rolls": {
-        "type": "minecraft:uniform",
-        "max": 5.0,
-        "min": 1.0
-      }
+      ]
     }
   ],
   "random_sequence": "minecraft:chests/village/village_butcher"

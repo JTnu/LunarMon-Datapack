@@ -2,7 +2,6 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -173,7 +172,7 @@
               "function": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
-                "max": 15.0,
+                "max": 10.0,
                 "min": 5.0
               },
               "options": "#minecraft:on_random_loot"
@@ -183,6 +182,41 @@
         }
       ],
       "rolls": 1.0
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 1.0,
+        "min": 1.0
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:cobblemon/rare_items",
+		    "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:cobblemon/special_pokeball",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:max_revive",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 3.0
+              }
+            }
+          ]
+        }
+      ]
     }
   ],
   "random_sequence": "minecraft:chests/trial_chambers/reward_rare"

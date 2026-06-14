@@ -153,6 +153,11 @@
             }
           ],
           "name": "minecraft:diamond"
+        },
+		        {
+          "type": "minecraft:loot_table",
+          "value":"minecraft:cobblemon/special_pokeball",
+		      "weight": 4
         }
       ],
       "rolls": 1.0

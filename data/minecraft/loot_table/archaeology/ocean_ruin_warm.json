@@ -46,8 +46,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:gold_nugget",
-          "weight": 2
+          "name": "cobblemon:scroll_of_waters"
         }
       ],
       "rolls": 1.0

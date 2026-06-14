@@ -214,7 +214,7 @@
             }
           ],
           "name": "minecraft:stone_pickaxe",
-          "weight": 2
+          "weight": 3
         },
         {
           "type": "minecraft:item",
@@ -230,8 +230,56 @@
       ],
       "rolls": {
         "type": "minecraft:uniform",
-        "max": 5.0,
-        "min": 3.0
+        "max": 3.0,
+        "min": 1.0
+      }
+    },
+	{
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+        "value":"minecraft:cobblemon/healing_items",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:loot_table",
+         "value": "minecraft:cobblemon/gems"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "cobblemon:exp_candy_xs",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "cobblemon:exp_candy_s",
+          "weight": 2
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 1.0,
+        "min": 0.0
       }
     }
   ],

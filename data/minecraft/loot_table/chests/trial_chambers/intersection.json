@@ -2,7 +2,6 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -136,11 +135,21 @@
           ],
           "name": "minecraft:iron_block",
           "weight": 20
+        },
+		    {
+          "type": "minecraft:loot_table",
+        "value":"minecraft:cobblemon/apricorn",
+		      "weight": 8
+        },
+        {
+          "type": "minecraft:loot_table",
+         "value": "minecraft:cobblemon/pokeball",
+		      "weight": 8
         }
       ],
       "rolls": {
         "type": "minecraft:uniform",
-        "max": 3.0,
+        "max": 2.0,
         "min": 1.0
       }
     }

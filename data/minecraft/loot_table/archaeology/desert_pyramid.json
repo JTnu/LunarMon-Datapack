@@ -35,6 +35,26 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:emerald"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:revive"
+        },
+		    {
+          "type": "minecraft:item",
+          "name": "mega_showdown:prison_bottle"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:scroll_of_darkness"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:reveal_glass"
         }
       ],
       "rolls": 1.0

@@ -51,10 +51,14 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:music_disc_relic"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:max_revive"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:archaeology/trail_ruins_rare"
+  "random_sequence": "minecraft:archaeology/trail_ruins_common"
 }

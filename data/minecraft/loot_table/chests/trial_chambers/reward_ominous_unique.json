@@ -2,7 +2,6 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -26,6 +25,19 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:heavy_core"
+        },
+		    {
+          "type": "minecraft:item",
+          "name": "cobblemon:master_ball"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:nether_star"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:mega_showdown/crystals",
+          "weight": 3
         }
       ],
       "rolls": 1.0
