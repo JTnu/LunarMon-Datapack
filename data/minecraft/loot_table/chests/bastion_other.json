@@ -2,7 +2,6 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -13,8 +12,7 @@
               "function": "minecraft:set_count"
             },
             {
-              "function": "minecraft:enchant_randomly",
-              "options": "#minecraft:on_random_loot"
+              "function": "minecraft:enchant_randomly"
             }
           ],
           "name": "minecraft:diamond_pickaxe",
@@ -45,8 +43,7 @@
               "function": "minecraft:set_damage"
             },
             {
-              "function": "minecraft:enchant_randomly",
-              "options": "#minecraft:on_random_loot"
+              "function": "minecraft:enchant_randomly"
             }
           ],
           "name": "minecraft:crossbow",
@@ -130,7 +127,7 @@
             }
           ],
           "name": "minecraft:golden_carrot",
-          "weight": 12
+          "weight": 6
         },
         {
           "type": "minecraft:item",
@@ -145,21 +142,22 @@
           "weight": 9
         },
         {
+          "name": "minecraft:book",
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:enchant_randomly",
-              "options": "minecraft:soul_speed"
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:soul_speed": 1
+              }
             }
           ],
-          "name": "minecraft:book",
-          "weight": 10
+          "weight": 3
         }
       ],
       "rolls": 1.0
     },
     {
-      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -179,8 +177,7 @@
               "function": "minecraft:set_count"
             },
             {
-              "function": "minecraft:enchant_randomly",
-              "options": "#minecraft:on_random_loot"
+              "function": "minecraft:enchant_randomly"
             }
           ],
           "name": "minecraft:iron_sword",
@@ -199,19 +196,17 @@
           "weight": 2
         },
         {
+          "name": "minecraft:golden_boots",
           "type": "minecraft:item",
           "functions": [
             {
-              "add": false,
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "function": "minecraft:enchant_randomly",
-              "options": "minecraft:soul_speed"
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:soul_speed": 1
+              }
             }
           ],
-          "name": "minecraft:golden_boots"
+          "weight": 8
         },
         {
           "type": "minecraft:item",
@@ -222,8 +217,7 @@
               "function": "minecraft:set_count"
             },
             {
-              "function": "minecraft:enchant_randomly",
-              "options": "#minecraft:on_random_loot"
+              "function": "minecraft:enchant_randomly"
             }
           ],
           "name": "minecraft:golden_axe"
@@ -292,17 +286,6 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:golden_sword"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
           "name": "minecraft:golden_chestplate"
         },
         {
@@ -358,7 +341,6 @@
       "rolls": 2.0
     },
     {
-      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -489,35 +471,23 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 17.0,
+                "max": 11.0,
                 "min": 5.0
               },
               "function": "minecraft:set_count"
             }
           ],
           "name": "minecraft:arrow",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:cooked_porkchop"
+          "weight": 1
         }
       ],
       "rolls": {
         "type": "minecraft:uniform",
-        "max": 4.0,
-        "min": 3.0
+        "max": 2.0,
+        "min": 1.0
       }
     },
     {
-      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:empty",
@@ -531,7 +501,6 @@
       "rolls": 1.0
     },
     {
-      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:empty",
@@ -543,6 +512,73 @@
         }
       ],
       "rolls": 1.0
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:cobblemon/healing_status",
+          "weight": 10
+        }
+      ],
+      "rolls": {
+          "type": "minecraft:uniform",
+          "max": 3.0,
+          "min": 1.0
+        }
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:cobblemon/ancient_special_pokeball",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:cobblemon/gems",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "legendarymonuments:grasswither_seal",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "legendarymonuments:icerend_seal",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "legendarymonuments:groundblight_seal",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "legendarymonuments:firescourge_seal",
+          "weight": 1
+        }
+      ],
+      "rolls": {
+          "type": "minecraft:uniform",
+          "max": 2.0,
+          "min": 1.0
+        }
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+         "value": "minecraft:cobblemon/evolutionary",
+          "weight": 5
+        }
+      ],
+      "rolls": {
+          "type": "minecraft:uniform",
+          "max": 1.0,
+          "min": 0.0
+        }
     }
   ],
   "random_sequence": "minecraft:chests/bastion_other"

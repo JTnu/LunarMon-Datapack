@@ -5,4 +5,4 @@ Current Contents
 > - Disabled specific minecraft advancements related to mobs & husbandry since hunger and vanilla mobs will be disabled.
 > - Adjusts spawn frequency & Spacing for minecraft villages & villages from BCA so villages generate properly spaced.
 > - Adds a PokeCenter to vanilla minecraft villages (see spawn rates in /minecraft/worldgen/villages.json)
-> - [**WORK IN PROGRESS**] Adjusts the loot table for vanilla minecraft structures (Will add discs from LunarMon Core in future)
+> - [**WORK IN PROGRESS**] Adjusts the loot tables for vanilla minecraft structures (Will add discs from LunarMon Core in future)
